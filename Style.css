@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "youngSerif";
+    src: url("assets/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "outfitVariable";
+    src:url("assets/Outfit-VariableFont.ttf") ;
+}
+
+.topImg img{
+    width: 100%;
+    margin: .5rem;
+    border-radius: 8px;
+}
+
+.descriptionTitle {
+    font-family: youngSerif, sans-serif;
+    font-weight: 550;
+    margin: 0 .5rem;
+}
+
+.descriptionContent{
+    font-family: outfitVariable,sans-serif;
+    margin:.5rem;
+}
+
+.prep{
+    display: block;
+    background-color: #ead8f3;
+    border-radius: 8px;
+    font-family: outfitVariable,sans-serif;
+    padding: .5rem 0 1rem 1rem;
+    margin: 1rem .5rem;
+}
+
+.boldThis, span{
+    font-weight: bold;
+}
+
+.prepItems li, .ingredientItems li{
+    margin-bottom: .5rem;
+}
+
+.prepTitle{
+    color: #7c48af;
+}
+.ingredientTitle, .instructionTitle, .nutritionTitle{
+    color: #ca6c3f;
+    font-family: youngSerif, sans-serif;
+    font-weight: 550;
+    margin: 1.5rem .5rem;
+}
+.ingredientItem{
+    font-family: outfitVariable, sans-serif;
+}
+
+hr{
+    margin: 2rem .5rem;
+}
+
+.instructionItem{
+    list-style: numeric;
+    font-family: outfitVariable, sans-serif;
+    padding-bottom: .5rem;
+}
+.nutrition{
+    margin-bottom: 5rem;
+}
+
+.nutritionItems, .nutrition p{
+    font-family: outfitVariable, sans-serif;
+    margin-left: .5rem;
+}
+
+.nutritionItems{
+    margin-top: 3rem;
+}
+
+.nutritionItems li span{
+    color: #ca6c3f;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    transform: translateY(-1rem);
+}
+
+.nutritionItems li {
+    list-style: none;
+}
+.nutritionItems hr{
+    margin:.5rem 0;
+}
